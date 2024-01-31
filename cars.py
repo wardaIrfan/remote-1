@@ -1,3 +1,7 @@
-def carColor:
-    print("This is a red car")
-carColor()
+import random
+def carSelection():
+    cars=["Nissan","Hyundai","Honda","Suzuki","Kia"]
+    selectedCar=random.choice(cars)
+    print(selectedCar)
+    
+carSelection()
